@@ -1,5 +1,10 @@
 # Auth - Authentication and User Management by Supabase
 
+<p align="center">
+  <img src="docs/assets/3d-banner.svg" alt="auth 3D banner" width="880" />
+</p>
+
+
 <!-- ⬡ 3D-UPGRADE v1 by Mayank Bhaskar -->
 <div align="center">
 
@@ -1429,3 +1434,19 @@ External provider should redirect to this endpoint
 
 Redirects to `<GOTRUE_SITE_URL>#access_token=<access_token>&refresh_token=<refresh_token>&provider_token=<provider_oauth_token>&expires_in=3600&provider=<provider_name>`
 If additional scopes were requested then `provider_token` will be populated, you can use this to fetch additional data from the provider or interact with their services
+
+
+---
+
+## 🧊 3D Visuals
+
+<p align="center">
+  <img src="docs/assets/3d-langs.svg" alt="auth — 3D language stack" width="800" />
+</p>
+
+Isometric 3D language stack computed from live GitHub language stats.
+Regenerate the graphics any time with the built-in generator — stdlib only, zero dependencies:
+
+```bash
+python tools/generate_3d_assets.py
+```
